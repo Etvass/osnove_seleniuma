@@ -9,6 +9,15 @@ import java.time.Duration;
 import java.util.List;
 
 public class Zadatak2 {
+
+//    Zad
+//    Napisati program koji:
+//            • Ucitava stranicu https://s.bootsnipp.com/iframe/Dq2X
+//            • Klikce na svaki iks da ugasi obavestenje i proverava da li se nakon klika element obrisao sa stranice i ispisuje odgovarajuce poruke (OVO JE POTREBNO RESITI PETLJOM)
+//    • POMOC: Brisite elemente odozdo.
+//    • (ZA VEZBANJE)Probajte da resite da se elemementi brisu i odozgo
+
+
     public static <Helper> void main(String[] args) throws InterruptedException {
 
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
