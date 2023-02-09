@@ -1,4 +1,4 @@
-package Helper;
+package pages;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.io.FileHandler;
@@ -58,9 +58,10 @@ public class Helper {
         Files.copy(f.toPath(), new File("screenshots/"+strDate+".jpg").toPath());
     }
 
-    public int getHTTPResponseStatusCode(String urlString) throws IOException {
-        URL url = new URL(urlString);
-        HttpURLConnection http = (HttpURLConnection)url.openConnection();
-        return http.getResponseCode();
-    }
+//    public int getHTTPResponseStatusCode(String urlString) throws IOException {
+//        URL url = new URL(urlString);
+//        HttpURLConnection http = (HttpURLConnection)url.openConnection();
+//        return http.getResponseCode();
+//    }
+
 }
